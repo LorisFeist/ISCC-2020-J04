@@ -61,10 +61,10 @@ header h1
         color: white;
         background-color: #2e2f30;
         text-align: right;
-        width: 97.4%;
-        vertical-align: middle;
+        width: 1283px;
+        vertical-align: middle; 
         position: relative;
-        bottom: 4em;
+        bottom: 3.2em;
     }
 .border-nav
     {
@@ -190,11 +190,7 @@ input[type=text], select, textarea
         resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */ 
         outline: none;
     }
-    input[type=text]
-    {
-        width: 250px;
-        height: 30px;
-    }
+
 input[type=submit] 
     {
         background-color: #27d1ff;
@@ -202,6 +198,7 @@ input[type=submit]
         width: 250px;
         padding: 12px 20px;
         cursor: pointer;
+        border: none    ;
     }
 input[type=submit]:hover
     {
@@ -211,16 +208,17 @@ input[type=submit]:active
     {   
         box-shadow: -5px 2px 5px 3px rgb(95, 156, 184) inset;
     }
-.en-cours 
+.en-cours a 
     {
         color: #17c1ff;
         font-family: 'OpenSans';
     }
-.container 
+    .container 
     {
         border-width: 5px;
         border-style: ridge;
         border-radius: 10px;
+        border-color: #17c1ff;
         background-color: #f2f2f2;
         padding: 20px
     }
@@ -229,4 +227,17 @@ input[placeholder]:hover
         border-width: 2px;
         border-style: double;
         border-color: blue;
+    }
+
+th
+    {
+        background-color: skyblue;
+    }
+
+.form
+    {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: #e6e6e6 solid 2px;
     }
